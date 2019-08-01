@@ -254,32 +254,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="quote">
-          The best way to learn new technology is to do
-          some meaningful project by yourself.
-          <p/>
-          So, for past 20+ years I did a simple tetris
-          game quite a few times. Firstly, for MS-DOS text mode,
-          then in graphics, and Windows 3.1 version came after
-          that.
-          <p/>
-          I even did it for our <a href="http://gsbelarus.com/pw/front-page/platform/story/">Gedemin platform</a> as a proof
-          of concept.
-          <p/>
-          Being new to js/react/redux stack I have
-          remade good old Golden Tetris for Windows game
-          trying to be as close to original as possible.
-          Hence some limitations, for example game control
-          requires keyboard presence.
-          <p/>
+          This was very compilcated work, which I could not edit without breaking the game. They used images for everything and I commend Andrej for his work.
           The sources are at <a href="https://github.com/gsbelarus/golden-tetris-5">github.com</a><br/>
           Please, feel free to copy and learn, as I did.
-          <p/>
-          Enjoy!
-          <p/>
-          Andrej Kirejeŭ
-          <p/>
-          @Golden Software of Belarus, Ltd
-        </div>
+          </div>
         <Draggable handle=".WindowCaption" disabled={this.props.showTop10 || this.props.askName}>
           <div className="WindowBorder">
 

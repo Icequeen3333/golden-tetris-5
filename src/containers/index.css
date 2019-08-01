@@ -1,5 +1,5 @@
 body {
-  background-color: wheat;
+  background-color: aqua;
 }
 
 .NoMobileMessage {
@@ -26,7 +26,7 @@ body {
   font-size: 28px;
   padding-right: 24px;
   padding-top: 8px;
-  color: darkred;
+  color: navy;
   line-height: 120%;
 }
 
